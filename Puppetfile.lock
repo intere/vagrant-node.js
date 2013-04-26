@@ -1,0 +1,19 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apt (1.1.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/stdlib (4.0.2)
+
+GIT
+  remote: https://github.com/puppetlabs/puppetlabs-nodejs.git
+  ref: master
+  sha: b5e70b0e77548b50ea3216758fbf95f8b782f791
+  specs:
+    nodejs (0.2.1)
+      puppetlabs/apt (>= 0.0.3)
+      puppetlabs/stdlib (>= 2.0.0)
+
+DEPENDENCIES
+  nodejs (>= 0)
+
