@@ -6,6 +6,20 @@ FORGE
     puppetlabs/stdlib (4.0.2)
 
 GIT
+  remote: https://github.com/intere/puppet-j2se.git
+  ref: master
+  sha: ba24bc52b7e40c490ddb506a9f165840edc2f8e9
+  specs:
+    j2se (0.0.1)
+
+GIT
+  remote: https://github.com/intere/puppet-tomcat6.git
+  ref: master
+  sha: b91af5186c9f08a6ecde5761932de7ff2c893a7e
+  specs:
+    tomcat6 (0.0.1)
+
+GIT
   remote: https://github.com/puppetlabs/puppetlabs-nodejs.git
   ref: master
   sha: b5e70b0e77548b50ea3216758fbf95f8b782f791
@@ -15,5 +29,7 @@ GIT
       puppetlabs/stdlib (>= 2.0.0)
 
 DEPENDENCIES
+  j2se (>= 0)
   nodejs (>= 0)
+  tomcat6 (>= 0)
 
